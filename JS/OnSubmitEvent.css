@@ -1,0 +1,25 @@
+div{
+    margin: 5px;
+    padding: 5px;
+}
+
+#name-id{
+margin-left: 28px;
+padding: 5px;
+}
+
+#email-id{
+margin-left: 28px;
+padding: 5px;
+}
+
+#password-id{
+    margin-left: 5px;
+    padding: 5px;
+    }
+
+#button-id{
+    margin: 5px;
+    padding: 5px;
+    margin-left: 78px;
+}

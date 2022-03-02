@@ -15,5 +15,25 @@ console.clear();
 
 // }
 
-const program = document.querySelectorAll("input[name = program]");
-console.log(program);
+const programs = document.querySelectorAll("input[name = program]");
+console.log(programs);
+
+Array.from(programs).map((program) => {
+    program.addEventListener("change", programHandaler)
+})
+
+function programHandaler(event){
+    if(event.target.checked)
+    {
+        console.log(event.target.value);
+    }
+}
+
+const departments = document.querySelector("#department-id");
+//console.log(departments);
+
+departments.addEventListener("change", DepartmentHandaler);
+
+function DepartmentHandaler(event){
+    console.log(event.target.value);
+}

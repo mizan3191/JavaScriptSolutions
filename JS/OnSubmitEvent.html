@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="OnSubmitEvent.css">
+</head>
+<body>
+    <form action="">
+       <div>
+        <label for="name">Name :
+            <input autofocus type="text"
+             name="name" id="name-id" required>
+        </label>
+       </div>
+       <div>
+           <label for="email">Email :
+               <input type="email" name="email" id="email-id" required>
+           </label>
+       </div>
+
+       <div>
+           <label for="password">Password : 
+                <input type="password"  minlength="6" 
+                maxlength="28" name="password" id="password-id" required>
+           </label>
+       </div>
+       <div>
+           <button type="submit" id="button-id">Submit</button>
+       </div>
+    </form>
+    <script src="OnSubmitEvent.js"></script>
+</body>
+</html>
